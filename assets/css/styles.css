@@ -1,27 +1,28 @@
-html, body {
-    margin: 0px;
-    background-color: #2F4F30;
-    color: white;
+html,
+body {
+  margin: 0px;
+  background-color: #2f4f30;
+  color: white;
 }
-
-
 .titulo {
-    text-align: center;
-    background-color: black;
-    color: white;
-    padding: 20px;
-    font-size: 25px;
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding: 20px;
+  font-size: 30px;
+}
+.titulo span {
+  color: red;
 }
 
 .carta {
-    position: relative;
-    width: 150px;
-    left: 100px;
-    margin-left: -75px;
-
+  position: relative;
+  width: 150px;
+  left: 100px;
+  margin-left: -75px;
 }
 
-#banca-cartas, #jugador-cartas{
-    height: 240px;
-
+#banca-cartas,
+#jugador-cartas {
+  height: 240px;
 }
